@@ -1,0 +1,12 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "project":"./tsconfig.json"
+    },
+    "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "warn"
+    }
+}
